@@ -1,0 +1,26 @@
+{
+   "metadata" : {
+         "xlabel" : "City",
+         "ylabel" : "Count",
+         "axis1" : ["San Fransisco","Los Angeles","San Diego","Fremont"],
+         "axis1Definition" : {
+            "San Fransisco":"[Store].[All Stores].[USA].[CA].[San Fransisco]",
+            "Los Angeles":"[Store].[All Stores].[USA].[CA].[Los Angeles]",
+            "San Diego":"[Store].[All Stores].[USA].[CA].[San Diego]",
+            "Fremont":"[Store].[All Stores].[USA].[CA].[Fremont]"
+          },
+         "axis2" : ["Q1"],
+         "axis2Definition" : {
+            "Q1":"[Time].[1997].[Q1]"
+          }
+   }, 
+   "data" : {  
+     "axis1" : "WA",
+     "children":[     
+            {"axis1":"San Fransisco", "size":5000},
+            {"axis1":"Los Angeles", "size":2000},
+            {"axis1":"San Diego", "size":100},
+            {"axis1":"Fremont", "size":500}
+      ]  
+  }
+}

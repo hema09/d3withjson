@@ -1,0 +1,40 @@
+{
+   "metadata" : {
+         "xlabel" : "Quarters",
+         "ylabel" : "Count",
+         "legend" : ["CA","OR","WA","FL"],
+         "legendDefinition" : ["[Store].[USA].[CA]","[Store].[USA].[OR]","[Store].[USA].[WA]","[Store].[USA].[FL]"],
+         "xvals" : ["Q1","Q2","Q3","Q4"],
+         "xValsDefinition" : ["[Time].[1997].[Q1]","[Time].[1997].[Q2]","[Time].[1997].[Q3]","[Time].[1997].[Q4]"]
+   },   
+   "values":[     
+         {
+            "xval":"Q1",
+            "CA":5377,
+            "OR":6909,
+            "WA":9342,
+            "FL":2342
+         },
+         {
+            "xval":"Q2",
+            "CA":6021,
+            "OR":4617,
+            "WA":10319,
+            "FL":4342
+         },
+         {
+            "xval":"Q3",
+            "CA":5492,
+            "OR":7761,
+            "WA":10453,
+            "FL":5342
+         },
+         {
+            "xval":"Q4",
+            "CA":8377,
+            "OR":7909,
+            "WA":9342,
+            "FL":4342
+         }
+      ]   
+}

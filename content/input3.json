@@ -1,0 +1,64 @@
+{
+	"values": [
+		{
+		  "state":"AZ",
+		  "noOfCancellation": "12",
+		  "noOfOrder": "30"
+		},
+		{
+		  "state":"AK",
+		  "noOfCancellation": "7",
+		  "noOfOrder": "15"
+		},
+		{
+		  "state":"WA",
+		  "noOfCancellation": "15",
+		  "noOfOrder": "35"
+		},
+		{
+		  "state":"OR",
+		  "noOfCancellation": "5",
+		  "noOfOrder": "18"
+		},
+		{
+		  "state":"MI",
+		  "noOfCancellation": "10",
+		  "noOfOrder": "55"
+		},
+		{
+		  "state":"MA",
+		  "noOfCancellation": "8",
+		  "noOfOrder": "45"
+		},
+		{
+		  "state":"FL",
+		  "noOfCancellation": "5",
+		  "noOfOrder": "20"
+		},
+		{
+		  "state":"UT",
+		  "noOfCancellation": "6",
+		  "noOfOrder": "30"
+		},
+		{
+		  "state":"CA",
+		  "noOfCancellation": "4",
+		  "noOfOrder": "22"
+		},
+		{
+		  "state":"NY",
+		  "noOfCancellation": "17",
+		  "noOfOrder": "40"
+		},
+		{
+		  "state":"PA",
+		  "noOfCancellation": "2",
+		  "noOfOrder": "14"
+		},
+		{
+		  "state":"NC",
+		  "noOfCancellation": "5",
+		  "noOfOrder": "18"
+		}
+	]
+}

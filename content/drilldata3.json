@@ -1,0 +1,26 @@
+{
+   "metadata" : {
+        "xlabel" : "City",
+         "ylabel" : "Count",
+         "axis1" : ["Seattle","Redmond","Bellevue","Kirkland"],
+         "axis1Definition" : {
+            "Seattle" : "[Store].[All Stores].[USA].[WA].[Seattle]",
+            "Redmond" : "[Store].[All Stores].[USA].[WA].[Redmond]",
+            "Bellevue" : "[Store].[All Stores].[USA].[WA].[Bellevue]",
+            "Kirkland" : "[Store].[All Stores].[USA].[WA].[Kirkland]"
+          },
+         "axis2" : ["Q1"],
+         "axis2Definition" : {
+            "Q1":"[Time].[1997].[Q1]"
+          }
+   }, 
+   "data" : {  
+     "axis1" : "WA",
+     "children":[     
+            {"axis1":"Seattle", "size":2000},
+            {"axis1":"Redmond", "size":1000},
+            {"axis1":"Bellevue", "size":700},
+            {"axis1":"Kirkland", "size":500}
+      ]  
+  }
+}

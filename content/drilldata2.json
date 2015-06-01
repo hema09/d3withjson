@@ -1,0 +1,27 @@
+{
+   "metadata" : {
+         "xlabel" : "State",
+         "ylabel" : "Count",
+         "axis1" : ["CA","OR","WA","FL"],
+         "axis1Definition" : {
+            "CA" : "[Store].[All Stores].[USA].[CA]",
+            "OR" : "[Store].[All Stores].[USA].[OR]",
+            "WA" : "[Store].[All Stores].[USA].[WA]",
+            "FL" : "[Store].[All Stores].[USA].[FL]"
+          },
+         "axis2" : ["Q1"],
+         "axis2Definition" : {
+            "Q1":"[Time].[1997].[Q1]"
+          }
+   },
+   "data" : {  
+       "axis1" : "USA",   
+       "children":[     
+              {"axis1":"CA", "size":5377},
+              {"axis1":"OR", "size":6909},
+              {"axis1":"WA", "size":9342},
+              {"axis1":"FL", "size":2342}
+        ] 
+    } 
+}
+

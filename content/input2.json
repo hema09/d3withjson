@@ -1,0 +1,51 @@
+{
+   "metadata" : {
+         "xlabel" : "Quarters",
+         "ylabel" : "Count",
+         "axis1" : ["CA","OR","WA","FL"],
+         "axis1parent" : "[Store].[All Stores].[USA]",
+         "axis1Definition" : {
+            "CA" : "[Store].[All Stores].[USA].[CA]",
+            "OR" : "[Store].[All Stores].[USA].[OR]",
+            "WA" : "[Store].[All Stores].[USA].[WA]",
+            "FL" : "[Store].[All Stores].[USA].[FL]"
+          },
+         "axis2" : ["Q1","Q2","Q3","Q4"],
+         "axis2Definition" : {
+             "Q1":"[Time].[1997].[Q1]",
+             "Q2":"[Time].[1997].[Q2]",
+             "Q3":"[Time].[1997].[Q3]",
+             "Q4":"[Time].[1997].[Q4]"
+         }
+   },   
+   "values":[     
+         {
+            "axis2":"Q1",
+            "CA":5377,
+            "OR":6909,
+            "WA":9342,
+            "FL":2342
+         },
+         {
+            "axis2":"Q2",
+            "CA":6021,
+            "OR":4617,
+            "WA":10319,
+            "FL":4342
+         },
+         {
+            "axis2":"Q3",
+            "CA":5492,
+            "OR":7761,
+            "WA":10453,
+            "FL":5342
+         },
+         {
+            "axis2":"Q4",
+            "CA":8377,
+            "OR":7909,
+            "WA":9342,
+            "FL":4342
+         }
+      ]   
+}

@@ -1,0 +1,55 @@
+{
+   "xval": "Quarters" , 
+   "children":[     
+         {
+            "xval":"Q1",
+            "children" : [
+              {"xval":"CA",  
+              "children" : [
+                {"xval":"LA", "size":5377},
+                {"xval":"SF", "size":6909},
+                {"xval":"SD", "size":9342},
+                {"xval":"AB", "size":2342}
+              ]
+            },
+              {"xval":"OR",  
+              "children" : [
+                {"xval":"CA", "size":5377},
+                {"xval":"OR", "size":6909},
+                {"xval":"WA", "size":9342},
+                {"xval":"FL", "size":2342}
+              ]
+            },
+              {"xval":"WA", "size":9342},
+              {"xval":"FL", "size":2342}
+            ]
+         },
+         {
+            "xval":"Q2",
+            "children" : [
+              {"xval":"CA", "size":6021},
+              {"xval":"OR", "size":4617},
+              {"xval":"WA", "size":10319},
+              {"xval":"FL", "size":4342}
+            ]
+         },
+         {
+            "xval":"Q3",
+            "children" : [
+              {"xval":"CA", "size":5492},
+              {"xval":"OR", "size":7761},
+              {"xval":"WA", "size":10453},
+              {"xval":"FL", "size":5342}
+            ]
+         },
+         {
+            "xval":"Q4",
+             "children" : [
+              {"xval":"CA", "size":8377},
+              {"xval":"OR", "size":7909},
+              {"xval":"WA", "size":9342},
+              {"xval":"FL", "size":4342}
+            ]
+         }
+      ]   
+}

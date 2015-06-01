@@ -1,0 +1,72 @@
+{
+    "axes": [
+        {
+            "hierarchies": [
+                {
+                    "uniqueName": "[Store]",
+                    "caption": "Store"
+                }
+            ],
+            "positions": [
+                [
+                    {
+                        "member": {
+                            "id": 1,
+                            "caption": "CA",
+                            "level": 2,
+                            "uniqueName": "[Store].[USA].[CA]"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "member": {
+                            "id": 2,
+                            "caption": "OR",
+                            "level": 2,
+                            "uniqueName": "[Store].[USA].[OR]"
+                        }
+                    }
+                ],
+                [
+                    {
+                        "member": {
+                            "id": 3,
+                            "caption": "WA",
+                            "level": 2,
+                            "uniqueName": "[Store].[USA].[WA]"
+                        }
+                    }
+                ]
+            ]
+        },
+        {
+            "hierarchies": [
+                {
+                    "uniqueName": "[Time]",
+                    "caption": "Time"
+                }
+            ],
+            "positions": [
+                [
+                    {
+                        "member": {
+                            "id": 1,
+                            "caption": "1997",
+                            "level": 0,
+                            "uniqueName": "[Time].[1997]"
+                        },
+                        "expanded": false
+                    }
+                ]
+            ]
+        }
+    ],
+    "data": [
+        [
+            "74,748",
+            "67,659",
+            "124,366"
+        ]
+    ]
+}
